@@ -1,0 +1,28 @@
+.greenbutton{
+  background-color:green;
+  color: white;
+}
+.blackbutton{
+  background-color: black;
+  color: white;
+}
+.greybutton{
+  background-color: rgb(71, 70, 70);
+  color: white;
+}
+.button{
+  flex-direction: row;
+  font-size: 25px;
+  height: 70px;
+  border: 1px solid rgb(109, 108, 108);
+  padding: 5px;
+}
+.button:active, .button::selection{
+  border: 1px solid white;
+}
+.smallbutton{
+  width: 75px;
+}
+.bigbutton{
+  width: 150px;
+}
